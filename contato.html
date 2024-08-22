@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio do Oscar Duarte Junior</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style_form.css">
+    </head>
+    <body>
+        <header class="cabecalho"> <!-- Cabeçalho de Página -->
+            <p>Portfólio Pessoal de Oscar Duarte Junior</p>
+            <br>
+            <hr align="center" width="300px"> <!-- Alinha a linha horizontal no centro -->
+        </header>
+        <nav class="container"><!-- container para lista do menu -->
+            <li class="configuracao_lista" id="li"><a href="index.html"> Sobre Mim:</a></li>
+            <li class="configuracao_lista" id="li"><a href="formacao.html">Formação Educacional:</a></li>
+            <li class="configuracao_lista" id="li"><a href="portfolio.html">Portfólio</a></li>
+            <li class="configuracao_lista" id="li"><a href="contato.html">Contato:</a></li>
+        </nav>
+        <section>
+            <article id="section">
+                <img src=".\img\oscar_Jr.png" alt="Imagem de Oscar Duarte Junior" width="60%">
+                <div class="alinha_texto">
+                    <br>
+                        <h2>Contato:</h2>
+                        <br>
+                        <fieldset id="cor_texto">
+                            <form action="" method="GET" width="70%">
+                                <label for="name">Nome: </label>
+                                <input type="text" id="input" placeholder="Digite o seu nome aqui:" required >
+                                <br>
+                                <br>
+                                <label for="email">E-mail: </label>
+                                <input type="email" id="input" placeholder="Digite o seu e-mail: " required >
+                                <br>
+                                <br>
+                                <label for="mensagem">Mensagem: </label><br>
+                                <textarea id="mensagem" rows="15" cols="60" placeholder="Digite sua mensagem aqui: " required></textarea>
+                                <br>
+                                <br>
+                                <input type="submit" name="envio" value="Enviar" id="botao">
+                                <br>
+                                <br>
+                            </form>
+                        </fieldset>               
+                </div>
+            </article>
+    
+        </section>
+        <footer class="footer">
+            <p> Todos os direitos reservados. Desenvolvido para fins educacionais por Oscar Duarte Junior. </p>
+        </footer>
+        
+    </body>
+</html>

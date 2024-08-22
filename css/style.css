@@ -1,0 +1,112 @@
+        * {
+            
+            margin: 0 auto;
+            text-decoration: none;
+        }
+        .cabecalho{ /** configuração do cabeçalho **/
+            
+            box-sizing: border-box;
+            box-shadow: 10px 10px 10px 10px black; /** sombreamento box do cabeçalho. **/
+            text-shadow:  3px 2px 2px #143841; /** sombreamento de texto cabeçalho. **/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            color: #FFFFFF ;
+            background-color: #B73B09;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+        }
+        .container{ /** configuração de menu **/
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: black;
+            text-align: center
+
+        }
+        .configuracao_lista { /** configuração de menu **/
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            justify-content: center;
+            list-style-type: none;
+            background-color: darkblue;
+            padding: 10px;
+            margin-bottom: 8px;
+            max-width: 15%;
+            margin: 2px; 
+            border-color: darkblue;
+        }
+        .configuracao_lista a{ /** configuração de menu nos links **/
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        #li:hover {
+            background-color: blue; /** estabelece cor de fundo ao passar mouse sobre o meneu **/
+        }
+        /** Destaca cor de fundo de link do portfólio **/
+        #cor_link { 
+            color: darkblue;
+        }
+         /** Destaca cor de fundo de link do portfólio **/
+        #cor_link:hover {
+            color:blue;
+            
+        }
+        #cor_texto{ /** formata texto com a cor cinza e hifeniza **/
+            color:#545f7a;
+            hyphens: auto;
+        }
+        
+        
+        
+        .section{ /** cria grid para alinhamento de conteúdo  com 2 colunas e 2 linhas para alinhar foto e conteudo de texto **/
+            display: grid;
+            box-sizing: content-box;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 30% 70%;
+            grid-row-gap: 10px;
+            grid-column-gap: 2px;
+            align-items: center;
+            text-align: justify;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 1%;
+
+        }
+
+        
+        .alinha_texto{  /** alinha texto dos parágrafos ao lado direito da página  **/
+            grid-column-start: 2;
+            grid-row-end: 1;
+            text-align: justify;
+            padding-right: 80px;
+            
+
+        }
+        .alinha_texto h2{ /** muda cor do h2 para cinza escuro **/
+            color: #3c4969;
+        }
+        .alinha_texto p{ /** muda cor do paragrafo para cinza mais claro e hifeniza texto **/
+            color:#545f7a;
+            hyphens: auto;
+
+        }
+        
+        .footer { /** rodape **/
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 10px;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            position: relative;
+            margin-top: 200px; /** adiciona espaço entre conteúdo e rodapé **/
+    
+            
+
+        }

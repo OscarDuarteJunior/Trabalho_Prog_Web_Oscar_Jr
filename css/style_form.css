@@ -1,0 +1,61 @@
+#section{ /** cria grid para alinhamento de conteúdo  com 2 colunas e 2 linhas para alinhar foto e conteudo de texto **/
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 30% 40%;
+    grid-template-rows: 30% 40%;
+    grid-row-gap: 10px;
+    grid-column-gap: 2px;
+    align-items: justify;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+}
+
+fieldset {
+    width: 100%;
+    padding-left: 10%;
+}
+form { /** Formatação de formulário **/
+    width: 80%;
+    padding: 5%;
+    margin: auto 0;
+}
+label {
+    position: relative;
+    margin-right: 10px;
+    font-weight: bold;
+    
+    
+}
+/** Formata as caixas de entrada dos campos dos formulários **/
+#input { width: 100%; 
+        height: 20px;
+        border-top: 5px;
+        border-left: 5px;
+        border-right: 5px;
+        border-bottom-color: brown;
+
+
+    }
+textarea { /** formata campo de mensagem **/
+    width: 100%;
+    border-bottom-color: brown;
+    border-color: brown;
+    resize: none;
+}
+/** Formata botão do formulário de enviar. **/
+#botao {
+    float: left;
+    float: right;
+    margin-right: 1px;
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+#botao:hover{ /** muda cor do botão **/
+    background-color: chocolate;
+
+}
